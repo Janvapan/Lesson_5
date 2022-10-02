@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Pinstripe&family=Montserrat:wght@500;600;700&family=Rubik+Maze&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit/Larsseit-Bold.woff2") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit/Larsseit-Regular.woff2") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit/Larsseit-Medium.woff2") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+
+
+/* ------------------------------------------------------------------- */
+
+body{
+	box-sizing:border-box
+}
+ul{
+	color: green;
+}
+h1,h2{
+	color: blue;
+	text-align: center;
+	text-shadow: 2px 2px 5px #000, -3px 2px chocolate;
+	font-size: 30px;
+	text-decoration: overline;
+	margin-bottom: 20px;
+}
+
+.first__paragraph > p{
+	color: blueviolet;
+	padding: 20px 40px 50px 60px;
+	text-align: right;
+	font-family: "Larsseit";
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.second__paragraph{
+	color: aqua;
+	font-size: 25px;
+	text-decoration-line: line-through;
+	font-family: "Montserrat", serif;
+	font-weight: 500;
+	text-shadow: 30px 40px 10px #567;
+	padding: 50px;
+	margin-top: 10px;
+	text-align: justify;
+	letter-spacing: 10px;
+	
+}
+
+.third__paragraph{
+	color: blue;
+	font-family: "Larsseit";
+	font-weight: 700;
+	text-decoration: underline;
+	padding: 50px 40px;
+	margin-top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.test__one{
+	line-height: 100px;
+	text-indent: 20px;
+	color: #567;
+}
+
+.down{
+padding: 60px;
+color: rgb(228, 134, 20);
+text-indent: 50px;
+letter-spacing: 5px;
+
+}
+
+.last{
+	white-space: nowrap;
+	padding: 50px;
+	word-spacing: 50px;
+}
+
+.image{
+	max-width: 50px;
+}
